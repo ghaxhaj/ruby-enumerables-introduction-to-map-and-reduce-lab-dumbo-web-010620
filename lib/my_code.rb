@@ -44,5 +44,5 @@ def reduce_to_total(source_array)
     return false if !source_array[i]
     i += 1
   end
-   
+  return true 
 end
