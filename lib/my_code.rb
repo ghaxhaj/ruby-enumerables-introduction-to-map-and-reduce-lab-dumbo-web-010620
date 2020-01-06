@@ -5,3 +5,4 @@ def map_to_negativize(source_array)
     negative = source_array * -1
     i += 1
   end
+end
