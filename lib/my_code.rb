@@ -54,8 +54,6 @@ def reduce_to_all_true(source_array)
   while i < source_array.length do
     if source_array[i] == true
       total << source_array[i]
-    else
-      nil
     end
     return total
-  end 
+  end
